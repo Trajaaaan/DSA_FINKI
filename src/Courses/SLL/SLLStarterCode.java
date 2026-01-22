@@ -6,7 +6,7 @@ public class SLLStarterCode{
         protected SLLNode<E> succ;
         public SLLNode(E elem, SLLNode<E> succ) {
             this.element = elem;
-            this.succ = succ;
+            this.succ = succ; 
         }
     }
     static class SLL<E>{
